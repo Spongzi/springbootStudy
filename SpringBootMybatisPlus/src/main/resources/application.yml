@@ -5,3 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/db1?characterEncoding=utf8&serverTimezone=GMT%2B8
     username: root
     password: 123456
+
+# 设置MP相关的设置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_

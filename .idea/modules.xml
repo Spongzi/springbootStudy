@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBootConfig/SpringBootConfig.iml" filepath="$PROJECT_DIR$/SpringBootConfig/SpringBootConfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo01/SpringBootDemo01.iml" filepath="$PROJECT_DIR$/SpringBootDemo01/SpringBootDemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDruid/SpringBootDruid.iml" filepath="$PROJECT_DIR$/SpringBootDruid/SpringBootDruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootJunit/SpringBootJunit.iml" filepath="$PROJECT_DIR$/SpringBootJunit/SpringBootJunit.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" filepath="$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisPlus/SpringBootMybatisPlus.iml" filepath="$PROJECT_DIR$/SpringBootMybatisPlus/SpringBootMybatisPlus.iml" />
     </modules>
   </component>
 </project>
