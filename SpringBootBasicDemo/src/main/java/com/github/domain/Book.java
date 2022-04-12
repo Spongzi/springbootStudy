@@ -2,7 +2,9 @@ package com.github.domain;
 
 import lombok.Data;
 
-// lombok
+/**
+ *  lombok
+ */
 @Data
 public class Book {
     private Integer id;

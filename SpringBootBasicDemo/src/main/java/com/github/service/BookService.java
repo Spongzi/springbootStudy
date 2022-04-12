@@ -44,7 +44,6 @@ public interface BookService {
      * 分页查询
      * @param currentPage 当前页面
      * @param pageSize 每页个数
-     * @param book 查询条件
      * @return 分页查询结果
      */
     IPage<Book> getPage(int currentPage, int pageSize);
