@@ -21,3 +21,19 @@ users:
     age: 20
 
 users3: [ { name:zhangsan, age:18 }, { name:lisi, age:30 } ]
+
+
+baseDir: c:\windows
+
+# 使用${属性名}引用数据
+tempDir: ${baseDir}\temp
+
+
+# 创建一个类用于封装下面的数据
+# 由Spring帮我们加载数据到对象,一定要告诉Spring加载这组信息
+# 使用的时候从Spring中直接获取信息使用
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/db1
+  username: root
+  password: 123456
