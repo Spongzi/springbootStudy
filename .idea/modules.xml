@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootConfig/SpringBootConfig.iml" filepath="$PROJECT_DIR$/SpringBootConfig/SpringBootConfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo01/SpringBootDemo01.iml" filepath="$PROJECT_DIR$/SpringBootDemo01/SpringBootDemo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootJunit/SpringBootJunit.iml" filepath="$PROJECT_DIR$/SpringBootJunit/SpringBootJunit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" filepath="$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" />
     </modules>
   </component>
 </project>
