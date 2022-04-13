@@ -1,6 +1,7 @@
 package com.github.controller;
 
-import com.github.dao.FormatJson;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.github.controller.utils.FormatJson;
 import com.github.domain.Book;
 import com.github.service.IBookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,7 +43,13 @@ public class BookController {
     }
 
     @GetMapping("{current}/{pageSize}")
-    public FormatJson getBy(@PathVariable Integer current, @PathVariable Integer pageSize) {
-        return new FormatJson(true, bookService.getPage(current, pageSize));
+    public FormatJson getBy(@PathVariable Integer current, @PathVariable Integer pageSize, Book book) {
+        System.out.println("参数==>" + book);
+        IPage<Book> page = bookService.getPage(current, pageSize, book);
+        // 如果当前页面值大于了最大页码值，那么重新执行查询操作，使用最大页码值当作当前页码值
+        if (current > page.getPages()) {
+            page = bookService.getPage((int)page.getPages(), pageSize, book);
+        }
+        return new FormatJson(true, page);
     }
 }

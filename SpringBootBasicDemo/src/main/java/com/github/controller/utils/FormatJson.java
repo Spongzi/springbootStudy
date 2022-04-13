@@ -1,4 +1,4 @@
-package com.github.dao;
+package com.github.controller.utils;
 
 import lombok.Data;
 
@@ -9,6 +9,7 @@ import lombok.Data;
 public class FormatJson {
     private Boolean flag;
     private Object data;
+    private String message;
 
     public FormatJson() {
     }
@@ -20,5 +21,15 @@ public class FormatJson {
     public FormatJson(Boolean flag, Object data) {
         this.flag = flag;
         this.data = data;
+    }
+
+    public FormatJson(Boolean flag, String message) {
+        this.flag = flag;
+        this.message = message;
+    }
+
+    public FormatJson(String message) {
+        this.flag = false;
+        this.message = message;
     }
 }
