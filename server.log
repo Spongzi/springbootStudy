@@ -14,3 +14,152 @@
 2022-04-14 16:48:45.330  INFO 20604 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2022-04-14 16:52:15.927  INFO 20604 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-04-14 16:52:15.936  INFO 20604 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:06:40.683  INFO 1796 --- [main] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 1796 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by lxlan in E:\JavaStudy\springbootstudy)
+2022-04-14 20:06:40.686  INFO 1796 --- [main] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:06:42.100  INFO 1796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:06:42.111  INFO 1796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:06:42.112  INFO 1796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:06:42.255  INFO 1796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:06:42.256  INFO 1796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1517 ms
+2022-04-14 20:06:42.437  INFO 1796 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:06:42.619  INFO 1796 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:06:44.319  INFO 1796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:06:44.328  INFO 1796 --- [main] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 4.37 seconds (JVM running for 5.788)
+2022-04-14 20:06:55.811  INFO 1796 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:06:55.811  INFO 1796 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:06:55.813  INFO 1796 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-14 20:10:50.462  INFO 1796 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-04-14 20:10:50.468  INFO 1796 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:14:10.459  INFO 10456 --- [main] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 10456 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by lxlan in E:\JavaStudy\springbootstudy)
+2022-04-14 20:14:10.459  INFO 10456 --- [main] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:14:11.356  INFO 10456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:14:11.364  INFO 10456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:14:11.364  INFO 10456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:14:11.476  INFO 10456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:14:11.476  INFO 10456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2022-04-14 20:14:11.604  INFO 10456 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:14:11.700  INFO 10456 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:14:12.812  INFO 10456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:14:12.820  INFO 10456 --- [main] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 2.882 seconds (JVM running for 4.061)
+2022-04-14 20:14:18.347  INFO 10456 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:14:18.348  INFO 10456 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:14:18.349  INFO 10456 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-14 20:22:09.474  INFO 18080 --- [main] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 18080 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:22:09.478  INFO 18080 --- [main] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:22:10.544  INFO 18080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:22:10.553  INFO 18080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:22:10.553  INFO 18080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:22:10.684  INFO 18080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:22:10.684  INFO 18080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2022-04-14 20:22:10.833  INFO 18080 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:22:10.958  INFO 18080 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:22:12.482  INFO 18080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:22:12.492  INFO 18080 --- [main] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 3.606 seconds (JVM running for 5.014)
+2022-04-14 20:22:17.982  INFO 18080 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:22:17.983  INFO 18080 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:22:17.985  INFO 18080 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-14 20:25:04.047  INFO 18080 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-04-14 20:25:04.053  INFO 18080 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:26:03.905  INFO 18544 --- [main] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 18544 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:26:03.905  INFO 18544 --- [main] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:26:04.910  INFO 18544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:26:04.910  INFO 18544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:26:04.910  INFO 18544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:26:05.037  INFO 18544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:26:05.037  INFO 18544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2022-04-14 20:26:05.161  INFO 18544 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:26:05.271  INFO 18544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:26:06.763  INFO 18544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:26:06.778  INFO 18544 --- [main] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 3.591 seconds (JVM running for 4.743)
+2022-04-14 20:26:15.391  INFO 18544 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:26:15.391  INFO 18544 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:26:15.391  INFO 18544 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-14 20:27:37.517  INFO 18544 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-04-14 20:27:37.523  INFO 18544 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:27:40.570  INFO 7128 --- [main] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 7128 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:27:40.573  INFO 7128 --- [main] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:27:41.470  INFO 7128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:27:41.478  INFO 7128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:27:41.478  INFO 7128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:27:41.612  INFO 7128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:27:41.612  INFO 7128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2022-04-14 20:27:41.758  INFO 7128 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:27:41.881  INFO 7128 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:27:43.149  INFO 7128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:27:43.158  INFO 7128 --- [main] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 3.051 seconds (JVM running for 4.115)
+2022-04-14 20:27:47.071  INFO 7128 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:27:47.071  INFO 7128 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:27:47.073  INFO 7128 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-14 20:33:53.190  INFO 7128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-04-14 20:33:53.197  INFO 7128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:34:05.835  INFO 17664 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 17664 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:34:05.837  INFO 17664 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:34:05.880  INFO 17664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-14 20:34:05.881  INFO 17664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-14 20:34:06.988  INFO 17664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:34:06.997  INFO 17664 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:34:06.997  INFO 17664 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:34:07.064  INFO 17664 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:34:07.065  INFO 17664 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1184 ms
+2022-04-14 20:34:07.202  INFO 17664 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:34:07.320  INFO 17664 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:34:08.689  INFO 17664 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-14 20:34:08.728  INFO 17664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:34:08.740  INFO 17664 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 3.362 seconds (JVM running for 4.574)
+2022-04-14 20:34:44.795  INFO 17664 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:34:44.795  INFO 17664 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:34:44.803  INFO 17664 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-04-14 20:36:28.697  INFO 17664 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-04-14 20:36:28.697  INFO 17664 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:39:11.407  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 8732 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:39:11.415  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:39:11.471  INFO 8732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-14 20:39:11.471  INFO 8732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-14 20:39:12.647  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:39:12.655  INFO 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:39:12.655  INFO 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:39:12.727  INFO 8732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:39:12.727  INFO 8732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1256 ms
+2022-04-14 20:39:12.879  INFO 8732 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:39:13.015  INFO 8732 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-04-14 20:39:14.538  INFO 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-14 20:39:14.578  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:39:14.594  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 3.759 seconds (JVM running for 5.032)
+2022-04-14 20:39:18.812  INFO 8732 --- [http-nio-801-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:39:18.812  INFO 8732 --- [http-nio-801-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:39:18.812  INFO 8732 --- [http-nio-801-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-14 20:39:41.811  INFO 8732 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-04-14 20:39:41.818  INFO 8732 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-04-14 20:39:41.973  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 8732 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:39:41.974  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:39:42.274  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:39:42.275  INFO 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:39:42.275  INFO 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:39:42.288  INFO 8732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:39:42.288  INFO 8732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2022-04-14 20:39:42.325  INFO 8732 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:39:42.354  INFO 8732 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2022-04-14 20:39:43.013  INFO 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-14 20:39:43.027  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:39:43.033  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 1.093 seconds (JVM running for 33.469)
+2022-04-14 20:39:43.035  INFO 8732 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-14 20:39:45.570  INFO 8732 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2022-04-14 20:39:45.571  INFO 8732 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2022-04-14 20:39:45.762  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Starting SpringBootBasicDemoApplication using Java 1.8.0_311 on DESKTOP-MR13GKO with PID 8732 (E:\JavaStudy\springbootstudy\SpringBootBasicDemo\target\classes started by 苏旭826 in E:\JavaStudy\springbootstudy)
+2022-04-14 20:39:45.762  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-14 20:39:45.973  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 801 (http)
+2022-04-14 20:39:45.973  INFO 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-14 20:39:45.974  INFO 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 20:39:45.988  INFO 8732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-14 20:39:45.988  INFO 8732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms
+2022-04-14 20:39:46.020  INFO 8732 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-04-14 20:39:46.050  INFO 8732 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2022-04-14 20:39:46.615  INFO 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-14 20:39:46.628  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 801 (http) with context path ''
+2022-04-14 20:39:46.632  INFO 8732 --- [restartedMain] c.github.SpringBootBasicDemoApplication  : Started SpringBootBasicDemoApplication in 0.899 seconds (JVM running for 37.069)
+2022-04-14 20:39:46.634  INFO 8732 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-14 20:40:15.130  INFO 8732 --- [http-nio-801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 20:40:15.131  INFO 8732 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-14 20:40:15.132  INFO 8732 --- [http-nio-801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-14 20:44:00.117  INFO 8732 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closing ...
+2022-04-14 20:44:00.118  INFO 8732 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed

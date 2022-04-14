@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author lxlan
+ * @author 苏旭
  */
 @Slf4j
 @RestController
@@ -35,6 +35,9 @@ public class BookController {
 
     @PutMapping
     public FormatJson update(@RequestBody Book book) {
+        System.out.println("test hot deploy...");
+        System.out.println("test hot deploy...");
+        System.out.println("test hot deploy...");
         return new FormatJson(bookService.updateById(book));
     }
 
