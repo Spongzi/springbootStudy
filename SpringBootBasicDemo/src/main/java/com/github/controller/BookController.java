@@ -4,21 +4,27 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.github.controller.utils.FormatJson;
 import com.github.domain.Book;
 import com.github.service.IBookService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
  * @author lxlan
  */
+@Slf4j
 @RestController
 @RequestMapping("/books")
 public class BookController {
+
+    // 创建记录日志
+//    private static final Logger logger = LoggerFactory.getLogger(BookController.class);
 
     @Autowired
     private IBookService bookService;
 
     @GetMapping
     public FormatJson getAll() {
+        log.info("你好");
         return new FormatJson(true, bookService.list());
     }
 
