@@ -44,6 +44,17 @@
             <artifactId>druid</artifactId>
             <version>1.2.8</version>
         </dependency>
+
+        <!--1. 导入JSR303规范-->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+        </dependency>
+        <!--使用hibernate框架提供的校验器来做实现类-->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
