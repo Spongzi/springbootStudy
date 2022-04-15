@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBootDruid" />
+        <module name="SpringBootTest" />
         <module name="SpringBoot_Configuration" />
         <module name="SpringBootDemo01" />
         <module name="SpringBootMybatis" />
@@ -26,6 +27,7 @@
       <module name="SpringBootJunit" target="1.8" />
       <module name="SpringBootMybatis" target="1.8" />
       <module name="SpringBootMybatisPlus" target="1.8" />
+      <module name="SpringBootTest" target="1.8" />
       <module name="SprongBootBasicDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -38,6 +40,7 @@
       <module name="SpringBootJunit" options="-parameters" />
       <module name="SpringBootMybatis" options="-parameters" />
       <module name="SpringBootMybatisPlus" options="-parameters" />
+      <module name="SpringBootTest" options="-parameters" />
       <module name="SpringBoot_Configuration" options="-parameters" />
       <module name="SprongBootBasicDemo" options="-parameters" />
     </option>
