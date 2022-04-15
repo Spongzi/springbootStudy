@@ -9,6 +9,7 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.ContentResultMatchers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.result.StatusResultMatchers;
 
@@ -40,5 +41,17 @@ public class WebTest {
         ResultMatcher ok = status.isOk();
         // 添加预计值到本次调用过程中进行匹配
         actions.andExpect(ok);
+    }
+
+    @Test
+    void testBody(@Autowired MockMvc mockMvc) throws Exception {
+        MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/books");
+        ResultActions actions = mockMvc.perform(builder);
+        // 设置预期值 与真实值进行比较，成功测试通过，失败测试失败
+        // 定义本次调用的预期值
+        ContentResultMatchers content = MockMvcResultMatchers.content();
+        ResultMatcher result = content.string("springboot");
+        // 添加预计值到本次调用过程中进行匹配
+        actions.andExpect(result);
     }
 }
