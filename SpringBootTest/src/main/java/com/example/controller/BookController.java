@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("books")
 public class BookController {
-    /*@GetMapping
+    /*
+    @GetMapping
     public String getById() {
         System.out.println("GetById is running...");
         return "spring boot";
     }
-*/
+    */
 
     @GetMapping
     public Book getById() {

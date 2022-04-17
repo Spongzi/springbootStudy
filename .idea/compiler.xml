@@ -15,6 +15,7 @@
         <module name="SpringBootJunit" />
         <module name="SprongBootBasicDemo" />
         <module name="SpringBootConfig" />
+        <module name="SpringBootSQL" />
         <module name="SpringBootMybatisPlus" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="SpringBootJunit" target="1.8" />
       <module name="SpringBootMybatis" target="1.8" />
       <module name="SpringBootMybatisPlus" target="1.8" />
+      <module name="SpringBootSQL" target="1.8" />
       <module name="SpringBootTest" target="1.8" />
       <module name="SprongBootBasicDemo" target="1.8" />
     </bytecodeTargetLevel>
@@ -40,6 +42,7 @@
       <module name="SpringBootJunit" options="-parameters" />
       <module name="SpringBootMybatis" options="-parameters" />
       <module name="SpringBootMybatisPlus" options="-parameters" />
+      <module name="SpringBootSQL" options="-parameters" />
       <module name="SpringBootTest" options="-parameters" />
       <module name="SpringBoot_Configuration" options="-parameters" />
       <module name="SprongBootBasicDemo" options="-parameters" />
