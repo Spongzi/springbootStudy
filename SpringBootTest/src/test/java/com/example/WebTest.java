@@ -10,6 +10,7 @@ import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.ContentResultMatchers;
+import org.springframework.test.web.servlet.result.HeaderResultMatchers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.result.StatusResultMatchers;
 
@@ -53,5 +54,46 @@ public class WebTest {
         ResultMatcher result = content.string("springboot");
         // 添加预计值到本次调用过程中进行匹配
         actions.andExpect(result);
+    }
+
+    @Test
+    void testJson(@Autowired MockMvc mockMvc) throws Exception {
+        MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/books");
+        ResultActions actions = mockMvc.perform(builder);
+        // 设置预期值 与真实值进行比较，成功测试通过，失败测试失败
+        // 定义本次调用的预期值
+        ContentResultMatchers content = MockMvcResultMatchers.content();
+        ResultMatcher result = content.json("{\n" +
+                "    \"id\": 1,\n" +
+                "    \"name\": \"SpringBoot\",\n" +
+                "    \"type\": \"springBoot\",\n" +
+                "    \"description\": \"SpringBoot\"\n" +
+                "}");
+        // 添加预计值到本次调用过程中进行匹配
+        actions.andExpect(result);
+    }
+
+    @Test
+    void testGetById(@Autowired MockMvc mockMvc) throws Exception {
+        MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/books");
+        ResultActions actions = mockMvc.perform(builder);
+
+        StatusResultMatchers status = MockMvcResultMatchers.status();
+        ResultMatcher ok = status.isOk();
+        actions.andExpect(ok);
+
+        ContentResultMatchers contentJson = MockMvcResultMatchers.content();
+        ResultMatcher json = contentJson.json("{\n" +
+                "    \"id\": 1,\n" +
+                "    \"name\": \"SpringBoot\",\n" +
+                "    \"type\": \"springBoot\",\n" +
+                "    \"description\": \"SpringBoot\"\n" +
+                "}");
+        actions.andExpect(json);
+
+
+        HeaderResultMatchers header = MockMvcResultMatchers.header();
+        ResultMatcher string = header.string("Content-Type", "application/json");
+        actions.andExpect(string);
     }
 }
