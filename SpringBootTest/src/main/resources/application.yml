@@ -1,2 +1,26 @@
 test:
   prop: testValue
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/db1?serverTimezone=UTC
+      username: root
+      password: 123456
+#  devtools:
+#    restart:
+#      # 不参与热部署的文件，或者文件夹
+#      exclude: static/**, public/**, config/application.yml
+#      # 热部署是否可用
+#      enabled: false
+
+mybatis-plus:
+  global-config:
+    db-config:
+      # 设置文件输出的前缀
+      table-prefix: tb_
+      id-type: auto
+  configuration:
+    # 设置mybatis-plus是否输出日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
