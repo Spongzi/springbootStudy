@@ -15,12 +15,14 @@
         <module name="SpringBootJunit" />
         <module name="SprongBootBasicDemo" />
         <module name="SpringBootConfig" />
+        <module name="springboot_redis" />
         <module name="SpringBootSQL" />
         <module name="SpringBootMybatisPlus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringBoot_Configuration" target="1.8" />
+      <module name="springboot_redis" target="1.8" />
       <module name="SpringBootBasicDemo" target="1.8" />
       <module name="SpringBootConfig" target="1.8" />
       <module name="SpringBootDemo01" target="1.8" />
@@ -46,6 +48,7 @@
       <module name="SpringBootTest" options="-parameters" />
       <module name="SpringBoot_Configuration" options="-parameters" />
       <module name="SprongBootBasicDemo" options="-parameters" />
+      <module name="springboot_redis" options="-parameters" />
     </option>
   </component>
 </project>
