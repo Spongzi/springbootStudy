@@ -10,8 +10,8 @@
         <module name="SpringBootDruid" />
         <module name="SpringBootTest" />
         <module name="SpringBoot_Configuration" />
-        <module name="SpringBootDemo01" />
         <module name="SpringBootMybatis" />
+        <module name="SpringBootDemo01" />
         <module name="SpringBootJunit" />
         <module name="SprongBootBasicDemo" />
         <module name="SpringBootConfig" />

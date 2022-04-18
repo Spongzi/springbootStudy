@@ -28,7 +28,7 @@ class SpringBootSqlApplicationTests {
 
 	@Test
 	void testJdbcTemplate() {
-		String sqlStr = "select * from tb_book where id = 11;";
+		String sqlStr = "select * from tb_book;";
 		/*
 		List<Map<String, Object>> maps = jdbcTemplate.queryForList(sqlStr);
 		System.out.println(maps);
@@ -50,7 +50,7 @@ class SpringBootSqlApplicationTests {
 
 	@Test
 	void testJdbcTemplateSave() {
-		String sqlStr = "insert into tb_Book values (null, 'springboot', 'springboot', 'springboot');";
+		String sqlStr = "insert into tb_Book values (3, 'springboot', 'springboot', 'springboot');";
 		jdbcTemplate.update(sqlStr);
 	}
 
