@@ -7,17 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBootDruid" />
         <module name="SpringBootTest" />
-        <module name="SpringBoot_Configuration" />
-        <module name="SpringBootMybatis" />
+        <module name="springbootes" />
         <module name="SpringBootDemo01" />
         <module name="SpringBootJunit" />
-        <module name="SprongBootBasicDemo" />
-        <module name="SpringBootConfig" />
         <module name="springboot_redis" />
         <module name="springbootmogodb" />
         <module name="SpringBootSQL" />
+        <module name="SpringBootDruid" />
+        <module name="SpringBoot_Configuration" />
+        <module name="SpringBootMybatis" />
+        <module name="SprongBootBasicDemo" />
+        <module name="SpringBootConfig" />
         <module name="SpringBootMybatisPlus" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
       <module name="SpringBootConfig" target="1.8" />
       <module name="SpringBootDemo01" target="1.8" />
       <module name="SpringBootDruid" target="1.8" />
+      <module name="springbootes" target="1.8" />
       <module name="SpringBootJunit" target="1.8" />
       <module name="springbootmogodb" target="1.8" />
       <module name="SpringBootMybatis" target="1.8" />
@@ -51,6 +53,7 @@
       <module name="SpringBoot_Configuration" options="-parameters" />
       <module name="SprongBootBasicDemo" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
+      <module name="springbootes" options="-parameters" />
       <module name="springbootmogodb" options="-parameters" />
     </option>
   </component>
