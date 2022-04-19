@@ -16,6 +16,7 @@
         <module name="SprongBootBasicDemo" />
         <module name="SpringBootConfig" />
         <module name="springboot_redis" />
+        <module name="springbootmogodb" />
         <module name="SpringBootSQL" />
         <module name="SpringBootMybatisPlus" />
       </profile>
@@ -28,6 +29,7 @@
       <module name="SpringBootDemo01" target="1.8" />
       <module name="SpringBootDruid" target="1.8" />
       <module name="SpringBootJunit" target="1.8" />
+      <module name="springbootmogodb" target="1.8" />
       <module name="SpringBootMybatis" target="1.8" />
       <module name="SpringBootMybatisPlus" target="1.8" />
       <module name="SpringBootSQL" target="1.8" />
@@ -49,6 +51,7 @@
       <module name="SpringBoot_Configuration" options="-parameters" />
       <module name="SprongBootBasicDemo" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
+      <module name="springbootmogodb" options="-parameters" />
     </option>
   </component>
 </project>
