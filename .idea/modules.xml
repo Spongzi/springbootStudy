@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" filepath="$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_configuration/SpringBoot_Configuration.iml" filepath="$PROJECT_DIR$/SpringBoot_configuration/SpringBoot_Configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootBasicDemo/SprongBootBasicDemo.iml" filepath="$PROJECT_DIR$/SpringBootBasicDemo/SprongBootBasicDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_cache/springboot_cache.iml" filepath="$PROJECT_DIR$/springboot_cache/springboot_cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml" filepath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootes/springbootes.iml" filepath="$PROJECT_DIR$/springbootes/springbootes.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootmogodb/springbootmogodb.iml" filepath="$PROJECT_DIR$/springbootmogodb/springbootmogodb.iml" />

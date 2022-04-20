@@ -19,10 +19,12 @@
         <module name="SpringBootMybatis" />
         <module name="SprongBootBasicDemo" />
         <module name="SpringBootConfig" />
+        <module name="springboot_cache" />
         <module name="SpringBootMybatisPlus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot_cache" target="1.8" />
       <module name="SpringBoot_Configuration" target="1.8" />
       <module name="springboot_redis" target="1.8" />
       <module name="SpringBootBasicDemo" target="1.8" />
@@ -52,6 +54,7 @@
       <module name="SpringBootTest" options="-parameters" />
       <module name="SpringBoot_Configuration" options="-parameters" />
       <module name="SprongBootBasicDemo" options="-parameters" />
+      <module name="springboot_cache" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
       <module name="springbootes" options="-parameters" />
       <module name="springbootmogodb" options="-parameters" />
