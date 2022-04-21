@@ -2,11 +2,14 @@ package com.github;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * @author lxlan
+ * @EnableCaching 开启缓存
  */
 @SpringBootApplication
+@EnableCaching
 public class SpringbootCacheApplication {
 
     public static void main(String[] args) {

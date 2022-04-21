@@ -5,6 +5,7 @@ import com.github.dao.BookDao;
 import com.github.daomain.Book;
 import com.github.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -13,6 +14,7 @@ import java.util.HashMap;
  * @author lxlan
  */
 @Service
+@Cacheable(value = "cacheSpace", key = "#id")
 public class BookServiceImpl extends ServiceImpl<BookDao, Book> implements BookService {
 
     /*@Autowired
