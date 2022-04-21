@@ -2,16 +2,6 @@ server:
   port: 80
 
 
-spring:
-  datasource:
-    druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/db?serverTimezone=UTC
-      username: root
-      password: 123456
-  cache:
-    type: ehcache
-
 mybatis-plus:
   global-config:
     db-config:
@@ -20,3 +10,30 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/db?serverTimezone=UTC
+      username: root
+      password: 123456
+  cache:
+    type: redis
+    redis:
+      # 是否启用前缀
+      use-key-prefix: true
+      # 是否存储空值
+      cache-null-values: false
+      # 指定前缀
+      key-prefix: aa
+      # 最大活动时间
+      time-to-live: 10
+  redis:
+    port: 6379
+    host: localhost
+#      开始配置ehcache
+#  cache:
+#    type: ehcache
+#    ehcache:
+#      config: ehcache.xml
